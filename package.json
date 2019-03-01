@@ -4,12 +4,29 @@
   "description": "plit in react",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./server.js prod",
+    "test": "node ./server.js dev"
   },
   "author": "Chris",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "bcrypt-nodejs": "0.0.3",
+    "debug": "~2.6.9",
+    "docxtemplater": "^3.9.0",
+    "express-session": "^1.15.6",
+    "jszip": "^3.1.5",
+    "mongoose": "^5.2.5",
+    "morgan": "~1.9.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^4.6.8",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "npm": "^6.2.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "q": "^1.5.1",
+    "request": "^2.88.0",
+    "requests": "^0.2.2"
   }
 }

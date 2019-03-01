@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.swp
+
+# Mello Trello Generated Files
+members.json
+public/management/trello-cards-summary.json
+public/management/trello-cards.json
+trello.json
