@@ -1,0 +1,15 @@
+{
+  "name": "plit",
+  "version": "1.0.0",
+  "description": "plit in react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chris",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
